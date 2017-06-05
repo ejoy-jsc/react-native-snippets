@@ -59,6 +59,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `props→` | `this.props` |
 | `state→` | `this.state` |
 | `bnd→`   | `binds the this of method inside the constructor` |
+| `rrcon→` | `reactReduxContainer` |
 
 The following table lists all the snippets that can be used for prop types.
 Every snippet regarding prop types begins with ```pt``` so it's easy to group it all together and explore all the available options.

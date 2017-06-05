@@ -494,5 +494,10 @@
     "prefix": "bnd",
     "body": "this.$1 = this.$1.bind(this)$0",
     "description": "Binds the this of a method. To be used inside a constructor"
+  },
+  "reactReduxContainer": {
+    "prefix": "rrcon",
+    "body": "import { connect } from 'react-redux'\nimport { bindActionCreators } from 'redux'\n\nconst mapStateToProps = (state, ownProps) => ({})\n\nconst mapDispatchToProps = (dispatch, ownProps) => ({})\n\nexport default connect(mapStateToProps, mapDispatchToProps)",
+    "description": "React-redux connect boilerplate"
   }
 }
