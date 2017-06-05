@@ -2,7 +2,7 @@
   "name": "ejoy-react-native-snippets",
   "displayName": "eJOY-React-Native-Snippets",
   "description": "Code snippets for eJOY members using React Native",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "galleryBanner": {
     "theme": "light",
     "color": "#FFFFFF"
