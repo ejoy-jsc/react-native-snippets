@@ -499,5 +499,73 @@
     "prefix": "rrcon",
     "body": "import { connect } from 'react-redux'\nimport { bindActionCreators } from 'redux'\n\nconst mapStateToProps = (state, ownProps) => ({})\n\nconst mapDispatchToProps = (dispatch, ownProps) => ({})\n\nexport default connect(mapStateToProps, mapDispatchToProps)",
     "description": "React-redux connect boilerplate"
-  }
+  },
+  "StatelessFunctionComp": {
+		"prefix": "slfc",
+		"body": [
+			"import React from 'react';",
+			"import { StyleSheet, $2 } from 'react-native';",
+			"import { PropTypes } from 'prop-types';",
+			"",
+			"const styles = StyleSheet.create({",
+			"",
+			"});",
+			"",
+			"/* eslint-disable no-use-before-define */",
+			"",
+			"$1.propTypes = {",
+			"",
+			"};",
+			"",
+			"function $1({ $3 }) {",
+			"  return (",
+			"  );",
+			"}",
+			"",
+			"export default $1;",
+			""
+		],
+		"description": "Stateless Functional Component"
+	},
+	"importChildComp": {
+		"prefix": "imcc",
+		"body": [
+			"import $1 from './components/$1';"
+		],
+		"description": "Import Child Component"
+	},
+	"StandardComponent": {
+		"prefix": "sdc",
+		"body": [
+			"import React, { Component } from 'react';",
+			"import { StyleSheet, $2 } from 'react-native';",
+			"import { PropTypes } from 'prop-types';",
+			"",
+			"",
+			"const styles = StyleSheet.create({",
+			"});",
+			"",
+			"export default class $1 extends Component {",
+			"  state = { };",
+			"",
+			"  static propTypes = {",
+			"    // model: PropTypes.object.isRequired,",
+			"    // title: PropTypes.string,",
+			"  };",
+			"",
+			"  static defaultProps = {",
+			"  };",
+			"",
+			"",
+			"  render() {",
+			"    const { } = this.props;",
+			"    return (",
+			"      <$2>",
+			"      </$2>",
+			"    );",
+			"  }",
+			"}"
+		],
+		"description": "Standard Component React Native"
+	}
 }
